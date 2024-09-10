@@ -1,0 +1,68 @@
+[
+    {
+		"name": "web_replica1",
+		"service": "HTTP",
+		"location": "SPAIN",
+		"hardConstraints": {
+			"trust": 0.9,
+			"latency": 15
+		},
+		"softConstraints": {
+			"latency": 5
+		},
+		"softwareCapabilities": ["tls13", "gzip", "cookies"],
+		"hardwareCapabilities": [],
+		"affinity": [],
+		"anti-affinity": ["web_replica2"],
+		"banSoftware": ["GlassFish"],
+		"mspl_object": ""
+    },
+    {
+		"name": "web_replica2",
+		"service": "HTTP",
+		"location": "SPAIN",
+		"hardConstraints": {
+			"trust": 0.9,
+			"latency": 15
+		},
+		"softConstraints": {},
+		"softwareCapabilities": ["tls13", "gzip", "cookies"],
+		"hardwareCapabilities": [],
+		"affinity": [],
+		"anti-affinity": ["web_replica1"],
+		"banSoftware": ["GlassFish"],
+		"mspl_object": ""
+    },
+	{
+		"name": "database",
+		"service": "DATABASE",
+		"location": "ITALY",
+		"hardConstraints": {
+			"trust": 0,
+			"latency": 30
+		},
+		"softConstraints": {},
+		"softwareCapabilities": ["SQL"],
+		"hardwareCapabilities": ["RAM-ECC", "NVMe"],
+		"affinity": [],
+		"anti-affinity": [],
+		"banSoftware": ["PostgreSQL"],
+		"mspl_object": ""
+    },
+	{
+		"name": "api",
+		"service": "HTTP",
+		"location": "EUROPE",
+		"hardConstraints": {
+			"trust": 0.5,
+			"latency": 50
+		},
+		"softConstraints": {},
+		"softwareCapabilities": ["tls13", "PartialContent"],
+		"hardwareCapabilities": [],
+		"affinity": [],
+		"anti-affinity": ["web_replica1", "web_replica2", "database"],
+		"banSoftware": [],
+		"mspl_object": ""
+    }
+]

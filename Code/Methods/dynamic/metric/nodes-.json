@@ -1,0 +1,219 @@
+[
+    {
+        "node_name": "nodeMurcia",
+        "cpu_capacity": 8000,
+        "cpu_usage": 1768,
+        "cpu_allocatable": 6232,
+        "ram_capacity": 8192,
+        "ram_usage": 2985,
+        "ram_allocatable": 5207,
+        "disk_capacity": 4096,
+        "disk_usage": 2267,
+        "disk_allocatable": 1829,
+        "node_info": {},
+        "nodes_specifications": {
+            "id": "",
+            "name": "nodeMurcia",
+			"location": "SPAIN",
+            "CPUspeed": 17850,
+            "CPUwatts": 0,
+            "CPUcost": 0.573,
+            "RAMcost": 0,
+            "DISKcost": 0,
+			"capabilities": ["AES-NI", "H.264", "RAM-ECC", "NVMe"],
+			"banSoftware": ["Firebird", "lighttpd"]
+        },
+        "nodes_stats": {
+            "lastSelection": 0,
+            "latency": 4,
+            "avgResponseTime": 1235
+			
+        }
+    },
+    {
+        "node_name": "nodeMadrid",
+        "cpu_capacity": 8000,
+        "cpu_usage": 4487,
+        "cpu_allocatable": 3513,
+        "ram_capacity": 16384,
+        "ram_usage": 6739,
+        "ram_allocatable": 9645,
+        "disk_capacity": 131072,
+        "disk_usage": 88357,
+        "disk_allocatable": 42715,
+        "node_info": {},
+        "nodes_specifications": {
+            "id": "",
+            "name": "nodeMadrid",
+			"location": "SPAIN",
+            "CPUspeed": 13209,
+            "CPUwatts": 0,
+            "CPUcost": 0.609,
+            "RAMcost": 0,
+            "DISKcost": 0,
+			"capabilities": ["AES-NI", "AVX", "H.264", "HEVC", "RAM-ECC", "NVMe"],
+			"banSoftware": ["lighttpd"]
+        },
+        "nodes_stats": {
+            "lastSelection": 0,
+            "latency": 13,
+            "avgResponseTime": 2452
+			
+        }
+    },
+    {
+        "node_name": "nodeValencia",
+        "cpu_capacity": 8000,
+        "cpu_usage": 4935,
+        "cpu_allocatable": 3065,
+        "ram_capacity": 16384,
+        "ram_usage": 8086,
+        "ram_allocatable": 8298,
+        "disk_capacity": 24576,
+        "disk_usage": 12053,
+        "disk_allocatable": 12523,
+        "node_info": {},
+        "nodes_specifications": {
+            "id": "",
+            "name": "nodeValencia",
+			"location": "SPAIN",
+            "CPUspeed": 15325,
+            "CPUwatts": 0,
+            "CPUcost": 0.513,
+            "RAMcost": 0,
+            "DISKcost": 0,
+			"capabilities": ["AES-NI", "AVX", "H.264", "HEVC", "RAM-ECC", "NVMe"],
+			"banSoftware": ["lighttpd"]
+        },
+        "nodes_stats": {
+            "lastSelection": 0,
+            "latency": 8,
+            "avgResponseTime": 1852
+			
+        }
+    },
+    {
+        "node_name": "nodeTurin",
+        "cpu_capacity": 16000,
+        "cpu_usage": 12266,
+        "cpu_allocatable": 3734,
+        "ram_capacity": 16384,
+        "ram_usage": 9181,
+        "ram_allocatable": 7203,
+        "disk_capacity": 131072,
+        "disk_usage": 91547,
+        "disk_allocatable": 39525,
+        "node_info": {},
+        "nodes_specifications": {
+            "id": "",
+            "name": "nodeTurin",
+			"location": "ITALY",
+            "CPUspeed": 17545,
+            "CPUwatts": 0,
+            "CPUcost": 0.652,
+            "RAMcost": 0,
+            "DISKcost": 0,
+			"capabilities": ["AES-NI", "AVX", "H.264", "HEVC", "RAM-ECC", "NVMe"],
+			"banSoftware": []
+        },
+        "nodes_stats": {
+            "lastSelection": 0,
+            "latency": 20,
+            "avgResponseTime": 2838
+			
+        }
+    },
+    {
+        "node_name": "nodeRome",
+        "cpu_capacity": 4000,
+        "cpu_usage": 2616,
+        "cpu_allocatable": 1384,
+        "ram_capacity": 8192,
+        "ram_usage": 6184,
+        "ram_allocatable": 2008,
+        "disk_capacity": 65536,
+        "disk_usage": 48070,
+        "disk_allocatable": 17466,
+        "node_info": {},
+        "nodes_specifications": {
+            "id": "",
+            "name": "nodeRome",
+			"location": "ITALY",
+            "CPUspeed": 12532,
+            "CPUwatts": 0,
+            "CPUcost": 0.459,
+            "RAMcost": 0,
+            "DISKcost": 0,
+			"capabilities": ["AES-NI", "RAM-ECC", "GPU"],
+			"banSoftware": []
+        },
+        "nodes_stats": {
+            "lastSelection": 0,
+            "latency": 24,
+            "avgResponseTime": 3250
+			
+        }
+    },
+    {
+        "node_name": "nodeHannover",
+        "cpu_capacity": 8000,
+        "cpu_usage": 3922,
+        "cpu_allocatable": 4078,
+        "ram_capacity": 16384,
+        "ram_usage": 6040,
+        "ram_allocatable": 10344,
+        "disk_capacity": 65536,
+        "disk_usage": 7576,
+        "disk_allocatable": 57960,
+        "node_info": {},
+        "nodes_specifications": {
+            "id": "",
+            "name": "nodeHannover",
+			"location": "GERMANY",
+            "CPUspeed": 24532,
+            "CPUwatts": 0,
+            "CPUcost": 0.509,
+            "RAMcost": 0,
+            "DISKcost": 0,
+			"capabilities": ["AES-NI", "AVX", "H.264", "HEVC", "RAM-ECC", "NVMe"],
+			"banSoftware": ["lighttpd"]
+        },
+        "nodes_stats": {
+            "lastSelection": 0,
+            "latency": 43,
+            "avgResponseTime": 4552
+			
+        }
+    },
+    {
+        "node_name": "nodeParis",
+        "cpu_capacity": 16000,
+        "cpu_usage": 5499,
+        "cpu_allocatable": 10501,
+        "ram_capacity": 32768,
+        "ram_usage": 23749,
+        "ram_allocatable": 9019,
+        "disk_capacity": 65536,
+        "disk_usage": 22327,
+        "disk_allocatable": 43209,
+        "node_info": {},
+        "nodes_specifications": {
+            "id": "",
+            "name": "nodeParis",
+			"location": "FRANCE",
+            "CPUspeed": 18527,
+            "CPUwatts": 0,
+            "CPUcost": 0.507,
+            "RAMcost": 0,
+            "DISKcost": 0,
+			"capabilities": ["AES-NI", "RAM-ECC", "NVMe", "GPU"],
+			"banSoftware": []
+        },
+        "nodes_stats": {
+            "lastSelection": 0,
+            "latency": 32,
+            "avgResponseTime": 3728
+			
+        }
+    }
+]
